@@ -9,55 +9,87 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0;1,900&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body id="main-header">
+    <header>
+        <nav aria-label="main navigation" >
+            <ul class="nav-menu">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#reservas">Reservas</a></li>
+                <li><a href="#cardapio">Cardápio</a></li>
+                <li><a href="#unidades">Unidades</a></li>
+    
+            </ul>
+        </nav>
+        <section class="logo-container">
+            <a href="#main-header" aria-label="Voltar para o topo"><img
+                    src="/Parallax/assets/Captura de tela 2024-10-23 153517 (1).png" alt="coffeshop logo"
+                    class="logo"></a>
+        </section>
+
+        <div class="hamburguer-container">
+            <img src="/Parallax/assets/cardapio.png" alt="Menu" class="hamburguer-icon">
+        </div>
+
+    </header>
     <main>
-        <section class="parallax-img">
+        <section class="parallax-img" role="img" aria-label="Sabores que abraçam o seu dia">
             <div class="text1">
-                <span class="border-dark">Parallax Website</span>
+                <span class="border-dark">sabores que abraçam o seu dia</span>
             </div>
         </section>
-        <section class="section-light">
-            <h2>Section One</h2>
+        <section class="section-light" id="sobre">
+            <h2>Sobre</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit minima blanditiis iure enim
                 quaerat, quas provident corporis, dolor veritatis est dicta aperiam in! Eos mollitia modi sunt, fugit
                 necessitatibus quam temporibus fugiat ex rerum ullam dolore numquam aspernatur at cupiditate veniam,
                 deleniti delectus error adipisci a! Eos, reiciendis assumenda? Tempora!</p>
         </section>
-        <section class="parallax-img2">
+        <section class="parallax-img2" role="img" aria-label="Reservas">
             <div class="text2">
-                <span class="border-trans">IMAGE TWO TEXT</span>
+                <span class="border-trans" id="reservas">Reservas</span>
             </div>
         </section>
-        <section class="section2-dark">
-            <h2>Section Two</h2>
+        <section class="section-dark">
+            <h2>Let's brunch!</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam, temporibus eligendi consequatur
                 inventore pariatur animi hic non, nesciunt officiis aspernatur ipsum. Nostrum soluta sequi fuga rerum.
                 Reiciendis voluptatem quasi a quis minima ducimus eaque, harum inventore quisquam rerum numquam in
                 fugiat, placeat dicta sed facilis eos qui aspernatur tenetur consequuntur?</p>
         </section>
-        <section class="parallax-img3">
+        <section class="parallax-img3" role="img" aria-label="Cardápio">
             <div class="text3">
-                <span class="border-trans">IMAGE THREE TEXT</span>
+                <span class="border-trans" id="cardapio">cardápio</span>
             </div>
         </section>
-        <section class="section3-dark">
-            <h2>Section Three</h2>
+        <section class="section-dark">
+            <h2>Para os amantes de café</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet tempore at nihil iste corporis ex
                 laudantium tenetur ratione unde, esse architecto optio exercitationem quis, quia rem cupiditate
                 consequuntur. Quam modi hic quibusdam. Totam doloribus amet quibusdam, odit rem quia! Eos velit
                 reprehenderit explicabo vitae ad inventore cum beatae deserunt iste.</p>
         </section>
-        <section class="parallax-img4">
+        <section class="parallax-img4"  role="img" aria-label="Conheça nossas unidades">
             <div class="text4">
-                <span class="border-dark">SEE YOU NEXT TIME</span>
+                <span class="border-dark" id="unidades">conheça nossas unidades</span>
             </div>
         </section>
     </main>
+    <footer id="contato">
+        <ul class="contact-list">
+            <li class="footer-text"><a href="#">Contato </a></li>
+            <li class="footer-text"><a href="#">Endereço </a></li>
+            <li><a href="https://instagram.com" target="_blank" aria-label="Instagram"><img src="/Parallax/assets/instagram.png"
+                        alt="Instagram" class="social-media"></a></li>
+            <li><a href="https://facebook.com" target="_blank" aria-label="Facebook"><img src="/Parallax/assets/facebook.png"
+                        alt="Facebook" class="social-media"></a></li>
+           
+        </ul>
+        <p class="footer-text">Copyright 2024 @ Gabrielle Alves</p>
+    </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
